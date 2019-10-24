@@ -59,8 +59,9 @@ Ensure you know the MAC address of your Xiaomi Flower Care. You can use `hcitool
 | interval      | Frequency of data refresh in seconds. Minimum: 1 (not recommended); Maximum: 600 (due to FakeGato). | Required |
 | humidityAlertLevel | Humidity level in percent used to trigger the humidity alert contact sensor. | Optional |
 | lowLightAlertLevel |  Low light level in Lux used to trigger a low light alert contact sensor. | Optional |
+| lowBatteryWarningLevel |  Battery level used to trigger low battery warning. | Optional |
 
-Typical values for `humidityAlertLevel`are 30 (%) and 2000 (Lux) for `lowLightAlertLevel`. 
+Typical values for `humidityAlertLevel`are 30 (%), 2000 (Lux) for `lowLightAlertLevel`, and 10 (%)  for `lowBatteryWarningLevel`. 
 
 ## Running
 
